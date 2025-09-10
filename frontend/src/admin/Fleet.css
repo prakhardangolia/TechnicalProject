@@ -1,0 +1,182 @@
+.fleet-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.fleet-header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.fleet-header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #2c3e50;
+}
+
+.fleet-main {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.show-form-button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: background 0.3s;
+}
+
+.show-form-button:hover {
+    background: #2980b9;
+}
+
+#addVehicleForm {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border: 1px solid #dee2e6;
+}
+
+#addVehicleForm h2 {
+    margin-top: 0;
+    color: #2c3e50;
+    text-align: center;
+}
+
+#addVehicleForm label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+#addVehicleForm input,
+#addVehicleForm select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#addVehicleForm button {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+#addVehicleForm button:hover {
+    background: #229954;
+}
+
+.fleet-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.fleet-table th {
+    background: #34495e;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.fleet-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.fleet-table tr:hover {
+    background: #f8f9fa;
+}
+
+.status-select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+}
+
+.status-select option[value="Available"] {
+    color: #27ae60;
+}
+
+.status-select option[value="In Use"] {
+    color: #f39c12;
+}
+
+.status-select option[value="Maintenance"] {
+    color: #e74c3c;
+}
+
+.delete-button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.delete-button:hover {
+    background: #c0392b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .fleet-container {
+        padding: 10px;
+    }
+    
+    .fleet-table {
+        font-size: 14px;
+    }
+    
+    .fleet-table th,
+    .fleet-table td {
+        padding: 8px;
+    }
+    
+    .fleet-header h1 {
+        font-size: 2em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

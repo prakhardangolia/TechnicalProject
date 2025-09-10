@@ -1,0 +1,4 @@
+node_modules
+server-ca.crt
+text.txt
+config1.env

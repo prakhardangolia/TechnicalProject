@@ -1,0 +1,32 @@
+{
+  "name": "logistics-management-system",
+  "version": "1.0.0",
+  "description": "A full-stack Logistics Management System with React frontend and Node.js backend",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "setup-db": "node setup-db.js",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\"",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "logistics",
+    "management",
+    "react",
+    "nodejs",
+    "express",
+    "mysql",
+    "sequelize"
+  ],
+  "author": "Alden Crist Rego",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "mysql2": "^3.14.3"
+  }
+}
